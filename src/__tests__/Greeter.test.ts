@@ -1,4 +1,9 @@
-import { Greeter } from '../index';
+import { add, Greeter } from '../index';
+
 test('My Greeter', () => {
-  expect(Greeter('Carl')).toBe('Hello Carl');
+  expect(Greeter('zhangsan')).toBe('Hello zhangsan');
 });
+
+test('Add', () => {
+  expect(add(1, 2)).toEqual(3);
+})
