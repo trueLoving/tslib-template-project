@@ -1,7 +1,7 @@
 {
-  "name": "my-tslib-template",
+  "name": "tslib-template-project",
   "version": "1.0.0",
-  "description": "tslib template project",
+  "description": "typescript template project for making typescript library",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -18,9 +18,13 @@
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "template",
+    "typescript",
+    "library"
+  ],
+  "author": "trueLoving",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "jest": "^29.4.1",
